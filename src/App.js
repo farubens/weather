@@ -68,6 +68,10 @@ function App() {
               <h4>Vento</h4>
               <p>{weather.wind.speed} km/h</p>
             </div>
+            <div className="filho" id="humid">
+              <h4>Humidade do ar</h4>
+              <p>{weather.main.humidity} %</p>
+            </div>
           </div>
         </section>
       </Fragment>
