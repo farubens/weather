@@ -57,7 +57,7 @@ function App() {
               <p>{weather.main.feels_like}º C</p>
             </div>
             <div className="filho" id="tempMax">
-              <h4>Temp. Máxima</h4>
+              <h4>Temp. Máx</h4>
               <p>{weather.main.temp_max}º C</p>
             </div>
             <div className="filho" id="tempMin">
